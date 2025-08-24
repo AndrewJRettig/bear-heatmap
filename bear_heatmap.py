@@ -17,8 +17,8 @@ from pathlib import Path
 DEFAULT_SKIP_SECONDS = 0.5
 ZOOM_SIZE = 200
 ZOOM_SCALE = 3
-FOX_BLOB_WIDTH = 80
-FOX_BLOB_HEIGHT = 50
+BEAR_BLOB_WIDTH = 80
+BEAR_BLOB_HEIGHT = 50
 JUMP_THRESHOLD = 300  # pixels - adjust based on your video
 
 
