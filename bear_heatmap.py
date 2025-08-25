@@ -17,8 +17,8 @@ from pathlib import Path
 DEFAULT_SKIP_SECONDS = 0.5
 ZOOM_SIZE = 200
 ZOOM_SCALE = 3
-BEAR_BLOB_WIDTH = 80
-BEAR_BLOB_HEIGHT = 50
+FOX_BLOB_WIDTH = 80
+FOX_BLOB_HEIGHT = 50
 JUMP_THRESHOLD = 300  # pixels - adjust based on your video
 
 
@@ -663,7 +663,7 @@ class HeatmapVisualizer:
         # )
         ax.set_title(
             # \n({self.annotator.duration_minutes:.1f} min video, {len(valid_annotations)} samples)
-            f"Fox Location Heatmap",
+            f"Bear Location Heatmap",
             fontsize=14,
             fontweight="bold",
         )
